@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <h1>Form Name</h1>
+        <div>
+            <label>Nome:
+                <input name="nome" type="text" size="40" /></label><br>
+            <label>Endereço:
+                <input name="endereco" type="text" size="40" /></label><br>
+            <label>Número:
+                <input name="numero" type="number" size="40" /></label><br>
+            <label>Cidade:
+                <input name="cidade" type="text" size="40" /></label><br>
+        </div>
+        
+        <label>Estado: 
+            <select name="Estados">
+                <option selected disabled value="">Selecione o Estado</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="RS">RS</option>
+            </select>
+        </label><br>
+        <label>Sexo:
+            <select name="sexo" id="sexo">
+                <option selected disabled value="">Selecione o Sexo</option>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="notbin">Não binário</option>
+            </select>
+
+        </label>
+        <div>
+            <label>Bens Pessoais<br></label>
+                <input type="checkbox">
+                <label>Casa</label><br>
+                <input type="checkbox">
+                <label>Carro</label><br>
+                <input type="checkbox">
+                <label>Moto</label><br>
+        </div>
+            
+        <label>Text Area:</label>
+            <textarea name="text_area" id="text_area" cols="50" rows="2"></textarea><br>
+        
+        <button type="submit" class="send">Enviar</button>
+        <button type="reset" class="clear">Limpar</button>
+    </fieldset>
+    
+</body>
+</html>
