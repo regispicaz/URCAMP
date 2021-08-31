@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio_ADS_URCAMP</title>
+    <meta name="author" content="Régis Picáz">
+    <style>/*CSS da página*/
+        body{
+            background: #f75;
+            font: normal 18pt arial;
+        }
+        button#clique{
+            background: #0f7;
+            font: normal 14pt arial;    
+        }
+    </style>
+</head><!--HTML da página-->
+<body id="corpo">
+    <h1>Olá Mundo</h1>
+    <button id="clique" onclick="color()">Clique aqui!!!</button>
+    <script>//JavaScript da página
+        function color(){
+        var backcolor = window.document.getElementById('corpo')
+        backcolor.style.background = '#009'    
+    }
+    </script>
+</body>
+</html>
