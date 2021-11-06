@@ -9,16 +9,16 @@
 </head>
 <body>
     <fieldset>
-        <h1>Form Name</h1>
+        <h1>Formulário</h1>
         <div>
             <label>Nome:
-                <input name="nome" type="text" size="40" /></label><br>
+                <input class="name" name="nome" type="text" size="40" placeholder="Fulano" /></label><br>
             <label>Endereço:
-                <input name="endereco" type="text" size="40" /></label><br>
+                <input class="address" name="endereco" type="text" size="40" placeholder="Rua Joao Domingues" /></label><br>
             <label>Número:
-                <input name="numero" type="number" size="40" /></label><br>
+                <input class="number" name="numero" type="number" size="40" placeholder="1234" /></label><br>
             <label>Cidade:
-                <input name="cidade" type="text" size="40" /></label><br>
+                <input class="city" name="cidade" type="text" size="40" placeholder="São Paulo"/></label><br>
         </div>
         
         <label>Estado: 
@@ -53,7 +53,7 @@
         </div>
             
         <label>Text Area:</label>
-            <textarea name="text_area" id="text_area" cols="50" rows="2"></textarea><br>
+            <textarea class="txt_area" name="text_area" id="text_area" cols="50" rows="2" placeholder="Escreva aqui sua mensagem..."></textarea><br>
         
         <button type="submit" class="send">Enviar</button>
         <button type="reset" class="clear">Limpar</button>

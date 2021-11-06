@@ -25,6 +25,10 @@ input, section, textarea{
     margin:5px;
 }
 
+.name, .address, .number, .city, .txt_area{
+    width: 95%;
+}
+
 label{
     font-weight: bold;
 }

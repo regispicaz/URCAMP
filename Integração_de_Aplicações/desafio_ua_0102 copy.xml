@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Árvore XML EMPRESA | Aluno "Régis Picáz Tavares" 2021-->
+<Empresa>
+    <Nome> Fulano </Nome>
+    <Sobrenome> De Tal </Sobrenome>
+    <CPF> 123.456.789-XX </CPF>
+    <Cargo> Secretario </Cargo>
+    <Email> fulano@empresa.com </Email>
+    <Telefone>
+        <DDD> 11 </DDD>
+        <Numero> 3333-3333 </Numero>
+    </Telefone>
+    <Endereco>
+        <Rua> Avenida Paulista, 6789 </Rua>
+        <Bairro> Bela Vista </Bairro>
+        <CEP> 11.111-123 </CEP>
+        <Cidade> São Paulo </Cidade>
+        <Estado> SP </Estado>
+    </Endereco>
+</Empresa>
